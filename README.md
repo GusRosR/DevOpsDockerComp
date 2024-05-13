@@ -19,8 +19,9 @@ En este caso, se le puede poner el nombre que se desee.
 
 3. Se clona el siguiente repositorio con el siguiente comando:
 
+    ```perl
     git clone https://github.com/jmlcas/moodle
-
+    ```
 
 4. Cambiarse al directorio que se añade luego de clonar el repositorio
 
