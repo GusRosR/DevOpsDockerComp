@@ -13,8 +13,9 @@ En este caso, se le puede poner el nombre que se desee.
 
 2. Cambiarse al directorio o carpeta que se acaba de crear
 
+     ```perl
     cd docker
-
+    ```
 
 3. Se clona el siguiente repositorio con el siguiente comando:
 
@@ -23,12 +24,15 @@ En este caso, se le puede poner el nombre que se desee.
 
 4. Cambiarse al directorio que se añade luego de clonar el repositorio
 
+   ```perl
    cd moodle
-
+   ```
 
 5. Realizar el Docker compose con el siguiente comando:
 
+   ```perl
    docker compose up -d
+   ```
 
 Es importante realizar el docker compose con el parámetro -d ya que sin él se corre el riesgo de echar a perder toda la configuración previa de docker que se ha realizado. La información que controla el usuario y la contraseña con la cual se accede al panel administrativo se encuentra en el archivo docker-compose.yml que se encuentra en el repositorio, en dicho archivo se realizan diferentes configuraciones y parámetros necesarios para que funcione el servicio sin ningún problema.
 
